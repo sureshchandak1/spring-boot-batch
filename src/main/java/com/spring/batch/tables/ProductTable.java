@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "products")
-public class Product {
+public class ProductTable {
 
     @Id
     private Integer id;
