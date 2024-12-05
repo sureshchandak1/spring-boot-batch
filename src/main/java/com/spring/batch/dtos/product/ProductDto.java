@@ -1,4 +1,4 @@
-package com.spring.batch.model;
+package com.spring.batch.dtos.product;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,9 +11,9 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Product {
+public class ProductDto {
 
-    private Integer id;
+    private int id;
 
     private String title;
 
@@ -22,7 +22,5 @@ public class Product {
     private Double price;
 
     private Float discount;
-
-    private Double discountPrice;
 
 }
